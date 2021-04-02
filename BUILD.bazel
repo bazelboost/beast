@@ -4,7 +4,7 @@ cc_library(
     name = "beast",
     visibility = ["//visibility:public"],
     includes = ["include"],
-    hdrs = glob(["include/boost/**/*.hpp"]),
+    hdrs = glob(["include/boost/**/*.hpp", "include/boost/**/*.ipp"]),
     deps = [
         "@boost//config",
         "@boost//asio",
