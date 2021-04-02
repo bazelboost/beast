@@ -1,0 +1,22 @@
+load("@rules_cc//cc:defs.bzl", "cc_library")
+
+cc_library(
+    name = "beast",
+    visibility = ["//visibility:public"],
+    includes = ["include"],
+    hdrs = glob(["include/boost/**/*.hpp"]),
+    deps = [
+        "@boost//config",
+        "@boost//asio",
+        "@boost//assert",
+        "@boost//core",
+        "@boost//throw_exception",
+        "@boost//optional",
+        "@boost//smart_ptr",
+        "@boost//type_traits",
+        "@boost//system",
+        "@boost//utility",
+        "@boost//mp11",
+        "@boost//static_assert",
+    ],
+)

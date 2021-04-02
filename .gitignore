@@ -5,3 +5,5 @@ bin64/
 Win32/
 x64/
 
+# bazel
+/bazel-*
