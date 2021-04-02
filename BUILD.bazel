@@ -18,5 +18,7 @@ cc_library(
         "@boost//utility",
         "@boost//mp11",
         "@boost//static_assert",
+        "@boost//intrusive",
+        "@boost//logic",
     ],
 )
