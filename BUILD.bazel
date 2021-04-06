@@ -20,5 +20,6 @@ cc_library(
         "@boost//static_assert",
         "@boost//intrusive",
         "@boost//logic",
+        "@boost//endian",
     ],
 )
