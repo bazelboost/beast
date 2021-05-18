@@ -4,8 +4,8 @@ cc_binary(
     name = "async",
     srcs = ["http_server_async.cpp"],
     deps = [
-        "@boost//beast",
-        "@boost//asio",
-        "@boost//config",
+        "@boost//libs/beast",
+        "@boost//libs/asio",
+        "@boost//libs/config",
     ],
 )
