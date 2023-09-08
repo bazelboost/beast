@@ -5,3 +5,9 @@ bin64/
 Win32/
 x64/
 
+# Bazel
+/bazel-*
+/external
+/.cache
+/compile_commands.json
+user.bazelrc
