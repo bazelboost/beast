@@ -6,6 +6,7 @@ cc_library(
     name = "boost.beast",
     hdrs = glob([
         "include/**/*.hpp",
+        "include/**/*.ipp",
         "include/**/*.h",
     ]),
     includes = ["include"],
